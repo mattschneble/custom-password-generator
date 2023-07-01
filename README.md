@@ -1,5 +1,5 @@
 # custom-password-generator
-This is a custom password generator
+This is a custom password generator.
 
 ## Technology Used 
 
@@ -11,20 +11,21 @@ This is a custom password generator
 
 ## Description 
 
-This project was assigned to me to create a professional web portfolio that potential employers can view. The goal of this project was to have a page used as examples. I continued to grow my HTML and CSS skills. This has an about me section, screenshots and links to previously completed projects, and various ways to reach me. 
+This project was assigned to me to create a custom password generator that can be used to create secure passwords for websites. This project helped me develop my Javascript skills. There is a generate password button, which when pressed will create a custom password based on user inputs. 
 
 [Visit the Deployed Site](https://mattschneble.github.io/professional-web-portfolio/)
 
 ## Usage 
 
-This page is to be used to understand who I am, what some of my previous projects are, and how to contact me. 
+This page is to be used to create random, secure passwords using numbers, letters (UPPERCASE or lowercase) and special characters. 
 
-![Screenshot of Horiseon Website](./assets/images/completed%20screenshot.png)
+![Screenshot of Password Generator](./assets/images/Starting%20Password%20Generator.png)
+![Screenshot of Password Generator](./assets/images/Completed%20Password%20Generator.png)
+![Video of Password Generator](./assets/images/Password%20Generator.mp4)
 
 ## Learning Points 
 
-Throughout the development of this webpage, I was able to learn about HTML and CSS elements and how they interact with diferent web browsers.
-I used my knowledge gained to help reorganize code to make things easier to understand, when attributes had the same properties. 
+Throughout the development of this program I was able to develop my Java skills, specifically functions, methods, if/else loops, and conditional statements. This is a good start for developing my Java abilities and I hope to continue to work on them. 
 
 ### Matt Schneble
 
@@ -33,4 +34,4 @@ I used my knowledge gained to help reorganize code to make things easier to unde
 
 ## Credits
 
-I would like to shoutout some of my classmate; Sonam Sherpa, Jay Liu and Thomas Munzar for assisting me with debugging and helping me to understand where some of my mistakes were made. All code was entered by myself. I also utilized the MDN sites above to help understand concepts and how to use proper syntax, but all code was entered by myself. 
+I would like to shoutout some of my classmates; Sonam Sherpa, Kayla Dutte, Virginia Freitas and Chris Larson for assisting me with debugging and helping me to understand where some of my mistakes were made. All code was entered by myself. I also utilized the sites above to help gain a stronger understanding of concepts and how to use proper syntax, but all code was entered by myself. 
