@@ -34,4 +34,4 @@ Throughout the development of this program I was able to develop my Java skills,
 
 ## Credits
 
-I would like to shoutout some of my classmates; Sonam Sherpa, Kayla Dutte, Virginia Freitas and Chris Larson for assisting me with debugging and helping me to understand where some of my mistakes were made. All code was entered by myself. I also utilized the sites above to help gain a stronger understanding of concepts and how to use proper syntax, but all code was entered by myself. 
+I would like to shoutout some of my classmates; Sonam Sherpa, Kayla Dutte, Virginia Freitas and Chris Larson for assisting me with debugging and helping me to understand where some of my mistakes were made. All code was entered by myself, except for the source code provided by UC Berkely Full Stack Development Course. The source code was entered on commit "cf6633e". I also utilized the sites above to help gain a stronger understanding of concepts and how to use proper syntax, but all code was entered by myself. 
