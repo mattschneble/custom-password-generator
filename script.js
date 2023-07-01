@@ -38,6 +38,10 @@ function writePassword() {
     selection = alert("Please choose at least one option");
   }
 
+  //if the user chooses all options, create a variable to hold all of the options via an else if statement
+  else if (chooseNumbers && chooseSpecialCharacters && chooseUppercaseLetters && chooseLowercaseLetters) {
+    selection = numbers.concat(specialCharacters, uppercaseLetters, lowercaseLetters);
+  }
 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
