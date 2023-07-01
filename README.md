@@ -13,7 +13,7 @@ This is a custom password generator.
 
 This project was assigned to me to create a custom password generator that can be used to create secure passwords for websites. This project helped me develop my Javascript skills. There is a generate password button, which when pressed will create a custom password based on user inputs. 
 
-[Visit the Deployed Site](https://mattschneble.github.io/professional-web-portfolio/)
+[Visit the Deployed Site](https://mattschneble.github.io/custom-password-generator/)
 
 ## Usage 
 
