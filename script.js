@@ -21,11 +21,14 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   //ask user for desired password length from 8 to 128 characters
   passwordLength = parseInt(prompt("How many characters would you like your password to be? Choose between 8 and 128"));
-  //if user does not enter a number between 8 and 128, alert them to choose a number between 8 and 128
+  //if user does not enter a number between 8 and 128, alert them to choose a number between 8 and 128. If they do not enter a number at all, alert them to choose a number between 8 and 128.
+  //if after two attempts the user does not enter a number between 8 and 128, end the program
   if (!passwordLength) {
     alert("Please choose a number between 8 and 128");
   }
-  else {
+  else if (passwordLength < 8 || passwordLength > 128) {
+    passwordLength = parseInt(prompt("Please choose a number between 8 and 128"));
+  } else {
     //if the user enters a number between 8 and 128, ask them if they want to include numbers, special characters, uppercase letters, and lowercase letters
     chooseNumbers = confirm("Would you like to include numbers in your password?");
     chooseSpecialCharacters = confirm("Would you like to include special characters in your password?");
@@ -67,7 +70,7 @@ function writePassword() {
     selection = numbers.concat(uppercaseLetters);
   }
 
-  else if (choosenumbers && chooseLowerCaseLetters) {
+  else if (chooseNumbers && chooseLowercaseLetters) {
     selection = numbers.concat(lowercaseLetters);
   }
 
