@@ -83,6 +83,23 @@ function writePassword() {
     selection = uppercaseLetters.concat(lowercaseLetters);
   }
 
+  //create else if conditional statements for if 1 of the 4 options are selected and store result in the selection variable
+  else if (chooseNumbers) {
+    selection = numbers;
+  }
+  
+  else if (chooseSpecialCharacters) {
+    selection = specialCharacters;
+  }
+
+  else if (chooseUppercaseLetters) {
+    selection = uppercaseLetters;
+  }
+
+  else if (chooseLowercaseLetters) {
+    selection = lowercaseLetters;
+  }
+  
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
